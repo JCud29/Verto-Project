@@ -1,0 +1,109 @@
+﻿@model ContentModel
+@{
+    ViewData["Title"] = "Home Page";
+}
+
+<div class="slideshow">
+    <div><img src="images/banner1.png" /></div>
+    <div><img src="images/logo.png" /></div>
+</div>
+
+<div class="content">
+
+    <section class="grid-x grid-margin-x hero">
+        <div class="cell large-3 medium-6">
+            <h4>@Model.sectionOne[0].cardHeading</h4>
+            <img src="images/products.png" />
+            <p>@Model.sectionOne[0].cardBody</p>
+            <a href="#" class="cardButton">@Model.sectionOne[0].cardButton</a>
+        </div>
+        <div class="cell large-3 medium-6">
+            <h4>@Model.sectionOne[1].cardHeading</h4>
+            <img src="images/events.png" />
+            <p>@Model.sectionOne[1].cardBody</p>
+            <a href="#" class="cardButton">@Model.sectionOne[1].cardButton</a>
+        </div>
+        <div class="cell large-3 medium-6">
+            <h4>@Model.sectionOne[2].cardHeading</h4>
+            <img src="images/news.png" />
+            <p>@Model.sectionOne[2].cardBody</p>
+            <a href="#" class="cardButton">@Model.sectionOne[2].cardButton</a>
+        </div>
+        <div class="cell large-3 medium-6">
+            <h4>@Model.sectionOne[3].cardHeading</h4>
+            <img src="images/gallery.png" />
+            <p>@Model.sectionOne[3].cardBody</p>
+            <a href="#" class="cardButton">@Model.sectionOne[2].cardButton</a>
+        </div>
+
+    </section>
+
+    <section id="offers">
+        <h3>Special Offer</h3>
+        <div class="grid-x grid-margin-x">
+            <div class="card cell large-4">
+                <img src="images/cashback.png" />
+                <p class="text-center">@Model.sectionTwo[0].cardLabel<br /> <b>@Model.sectionTwo[0].cardOffer</b></p>
+
+            </div>
+
+            <div class="card cell large-4">
+                <img src="images/kit.png" />
+                <p class="text-center">@Model.sectionTwo[1].cardLabel<br /> <b>@Model.sectionTwo[1].cardOffer</b></p>
+            </div>
+
+            <div class="card cell large-4">
+                <img src="images/fieldscope.png" />
+                <p class="text-center">@Model.sectionTwo[2].cardLabel<br /> <b>@Model.sectionTwo[2].cardOffer</b></p>
+            </div>
+        </div>
+        <a href="#" class="cardButton">View All Offers</a>
+    </section>
+
+    <section>
+        <h3>Product Categories</h3>
+        <div class="products">
+            <div class="card">
+                <img src="images/binoculars.png" />
+                <p class="text-center">@Model.sectionThree[0].cardName</p>
+            </div>
+            <div class="card">
+                <img src="images/compact.png" />
+                <p class="text-center">@Model.sectionThree[1].cardName</p>
+            </div>
+            <div class="card">
+                <img src="images/telescope.png" />
+                <p class="text-center">@Model.sectionThree[2].cardName</p>
+            </div>
+            <div class="card">
+                <img src="images/observation.png" />
+                <p class="text-center">@Model.sectionThree[3].cardName</p>
+            </div>
+            <div class="card">
+                <img src="images/binoculars.png" />
+                <p class="text-center">@Model.sectionThree[0].cardName</p>
+            </div>
+            <div class="card">
+                <img src="images/compact.png" />
+                <p class="text-center">@Model.sectionThree[1].cardName</p>
+            </div>
+            
+        </div>
+    </section>
+</div>
+
+    
+
+
+
+
+<section>
+
+</section>
+<!--
+<script type="text/javascript" src="//code.jquery.com/jquery-1.11.0.min.js"></script>
+<script type="text/javascript" src="//code.jquery.com/jquery-migrate-1.2.1.min.js"></script>-->
+
+
+
+

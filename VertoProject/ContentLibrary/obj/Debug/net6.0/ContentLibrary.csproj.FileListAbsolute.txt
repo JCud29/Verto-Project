@@ -1,0 +1,12 @@
+C:\Users\James pc\Desktop\VertoProject\ContentLibrary\bin\Debug\net6.0\ContentLibrary.deps.json
+C:\Users\James pc\Desktop\VertoProject\ContentLibrary\bin\Debug\net6.0\ContentLibrary.dll
+C:\Users\James pc\Desktop\VertoProject\ContentLibrary\bin\Debug\net6.0\ContentLibrary.pdb
+C:\Users\James pc\Desktop\VertoProject\ContentLibrary\obj\Debug\net6.0\ContentLibrary.csproj.AssemblyReference.cache
+C:\Users\James pc\Desktop\VertoProject\ContentLibrary\obj\Debug\net6.0\ContentLibrary.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\James pc\Desktop\VertoProject\ContentLibrary\obj\Debug\net6.0\ContentLibrary.AssemblyInfoInputs.cache
+C:\Users\James pc\Desktop\VertoProject\ContentLibrary\obj\Debug\net6.0\ContentLibrary.AssemblyInfo.cs
+C:\Users\James pc\Desktop\VertoProject\ContentLibrary\obj\Debug\net6.0\ContentLibrary.csproj.CoreCompileInputs.cache
+C:\Users\James pc\Desktop\VertoProject\ContentLibrary\obj\Debug\net6.0\ContentLibrary.dll
+C:\Users\James pc\Desktop\VertoProject\ContentLibrary\obj\Debug\net6.0\refint\ContentLibrary.dll
+C:\Users\James pc\Desktop\VertoProject\ContentLibrary\obj\Debug\net6.0\ContentLibrary.pdb
+C:\Users\James pc\Desktop\VertoProject\ContentLibrary\obj\Debug\net6.0\ref\ContentLibrary.dll

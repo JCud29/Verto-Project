@@ -1,0 +1,77 @@
+﻿@model ContentModel
+@{
+    ViewData["Title"] = "CMS";
+}
+
+<section class="cms"> 
+
+    <h3>section 1</h3>
+    <form method="post" action="@Url.Action("SectionOne")">
+        <label for="cards">Choose a card to edit:</label>
+
+        <select name="cards" id="cards">
+          <option value="card1">Card 1</option>
+          <option value="card2">Card 2</option>
+          <option value="card3">Card 3</option>
+          <option value="card4">Card 4</option>
+        </select>
+
+        <label for="cardHeading">Card Heading:</label>
+        <input type="text" id="cardHeading" name="cardHeading">
+
+        <label for="cardBody">Card Content:</label>
+        <textarea id="cardBody" name="cardBody" rows="4" cols="20"></textarea>
+
+        <label for="buttonText">Button Text:</label>
+        <input type="text" id="buttonText" name="buttonText">
+
+        <button class="cardButton" type="submit">Update</button> 
+
+    </form>
+
+</section>
+
+<section class="cms"> 
+
+    <h3>section 2</h3>
+    <form method="post" action="@Url.Action("SectionTwo")">
+        <label for="cardsOffer">Choose a card to edit:</label>
+
+        <select name="cardsOffer" id="cardsOffer">
+          <option value="card1">Card 1</option>
+          <option value="card2">Card 2</option>
+          <option value="card3">Card 3</option>
+        </select>
+
+        <label for="cardLabel">Card Content:</label>
+        <input type="text" id="cardLabel" name="cardLabel">
+
+        <label for="cardOffer">Card Offer:</label>
+        <input type="text" id="cardOffer" name="cardOffer">
+
+        <button class="cardButton" type="submit">Update</button>
+
+    </form>
+
+</section>
+
+<section class="cms"> 
+
+    <h3>section 3</h3>
+    <form method="post" action="@Url.Action("SectionThree")">
+        <label for="cardsCategories">Choose a card to edit:</label>
+
+        <select name="cardsCategories" id="cardsCategories">
+          <option value="card1">Card 1</option>
+          <option value="card2">Card 2</option>
+          <option value="card3">Card 3</option>
+          <option value="card4">Card 4</option>
+        </select>
+
+        <label for="cardName">Card Content:</label>
+        <input type="text" id="cardName" name="cardName">
+        <button class="cardButton" type="submit">Update</button>
+
+    </form>
+
+</section>

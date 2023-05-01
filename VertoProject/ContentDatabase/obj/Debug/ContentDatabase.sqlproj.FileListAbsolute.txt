@@ -1,0 +1,10 @@
+C:\Users\James pc\Desktop\VertoProject\ContentDatabase\bin\Debug\ContentDatabase.dacpac
+C:\Users\James pc\Desktop\VertoProject\ContentDatabase\bin\Debug\ContentDatabase.dll
+C:\Users\James pc\Desktop\VertoProject\ContentDatabase\bin\Debug\ContentDatabase.pdb
+C:\Users\James pc\Desktop\VertoProject\ContentDatabase\obj\Debug\ContentDatabase.sqlproj.AssemblyReference.cache
+C:\Users\James pc\Desktop\VertoProject\ContentDatabase\obj\Debug\ContentDatabase.dll
+C:\Users\James pc\Desktop\VertoProject\ContentDatabase\obj\Debug\ContentDatabase.pdb
+C:\Users\James pc\Desktop\VertoProject\ContentDatabase\obj\Debug\Model.xml
+C:\Users\James pc\Desktop\VertoProject\ContentDatabase\obj\Debug\refactor.xml
+C:\Users\James pc\Desktop\VertoProject\ContentDatabase\obj\Debug\postdeploy.sql
+C:\Users\James pc\Desktop\VertoProject\ContentDatabase\obj\Debug\predeploy.sql

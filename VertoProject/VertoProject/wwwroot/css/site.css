@@ -1,0 +1,138 @@
+html {
+    font-size: 14px;
+}
+
+@media (min-width: 768px) {
+    html {
+        font-size: 16px;
+    }
+}
+
+html {
+    position: relative;
+    min-height: 100%;
+}
+
+body {
+    margin-bottom: 60px;
+}
+
+
+header {
+    background: #e6e7e8;
+}
+
+.toggle {
+    justify-content: end;
+}
+
+
+.menu-icon::after {
+    color: forestgreen;
+}
+
+nav {
+    margin: auto;
+    max-width: 1280px;
+}
+
+.navItem {
+    color: black;
+    padding: 0em;
+    margin: 0em;
+}
+
+
+.search {
+    margin-left: auto;
+}
+
+.search button {
+    background: grey;
+}
+
+.slideshow .slick-dots li button:before {
+   font-size:50px;
+   color: forestgreen;
+}
+
+.content {
+    margin: auto;
+    max-width: 1280px;
+}
+
+section {
+    padding: 2em;
+}
+
+section:nth-child(even) {
+    background: #e6e7e8;
+}
+
+.hero div {
+    margin-top: 1em;
+}
+
+.cardButton {
+    background: #008542;
+    padding: 0.5em 1.4em;
+    color: white;
+}
+
+#offers {
+    text-align: center;
+}
+
+.slick-arrow {
+    z-index: 1;
+    width: 40px;
+    height: 40px;
+}
+
+.slick-arrow:before {
+    font-size: 30px;
+    color: #000;
+}
+
+.products .slick-dots li button:before {
+    font-size: 20px;
+    color: forestgreen;
+}
+
+.products .card img{
+    height: 15em;
+}
+
+.products .card {
+    border: none;
+}
+
+footer {
+    background: #bbbdbf;
+    color: white;
+}
+
+.footerContainer {
+    margin: auto;
+    max-width: 1280px;
+}
+
+
+.social li {
+    display: inline;
+    padding: 0.3em 0.5em 0.2em 0.7em;
+    border-right: 2px solid grey;
+}
+
+.social li:last-child {
+    border:none;
+}
+
+
+
+
+
+
+
+
+
